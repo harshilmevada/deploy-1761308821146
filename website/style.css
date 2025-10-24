@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=PT+Sans:ital@1&family=Smooch&display=swap');
+
+
+:root{
+      --primary:#EEBF00;
+      --secondary:#232838;
+      --ternary:#6c6c6c;
+      --danger:#fe4545;
+      --pure:#fefefe;
+      --light:#f0f0f0;
+      --heaven:#ffffff;
+      --footer:#20333f;
+}
+
+
+/* @media (min-width:576px){
+      .container{
+            max-width: 540px;
+      }
+} */
+
+.a, .b {
+      height: 200px;
+
+}
+.a {
+      clip-path: polygon(0 0 , 100% 0, 100% 100%, 0 calc(100% - 80px));
+      background: #fe8e8e;
+}
+
+.b {
+      clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%);
+      margin-top: -70px;
+      background: #a0d1ff;
+      /* position: absolute; */
+}
+.header {
+      align-items: center;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      z-index: 1;
+      margin: -300px 0 0 410px;
+}
+.name{
+      font-size: 100px;
+      color: #391010;
+}
